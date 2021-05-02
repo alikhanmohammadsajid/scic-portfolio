@@ -15,8 +15,8 @@ const HomePage = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores numquam quibusdam nostrum accusantium esse voluptates quam a inventore modi nihil delectus enim consequuntur magnam reiciendis ex neque, accusamus dicta. Deleniti?
                 </p>
                 <div className="icons">
-                    <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faFacebook} className="icon fb" />
+                    <Link to="https://www.facebook.com/profile.php?id=100013329240176" className="icon-holder">
+                       <FontAwesomeIcon icon={faFacebook} className="icon fb" />
                     </Link>
                     <Link className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />

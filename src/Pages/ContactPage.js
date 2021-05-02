@@ -21,18 +21,7 @@ const ContactPage = () => {
             <div className="title">
                 <Title title={"Contact"} span={"Contact"} />
             </div>
-            <div>
-                <form className="contact-form" onSubmit={sendEmail}>
-                    <input type="hidden" name="contact_number" />
-                    <label>Name</label>
-                    <input type="text" name="name" />
-                    <label>Email</label>
-                    <input type="email" name="email" />
-                    <label>Message</label>
-                    <input type="text" name="message" />
-                    <input type="submit" value="Send" />
-                </form>
-            </div>
+            
             <div className="ContactPage">
 
                 <div className="contact-sector">
@@ -41,6 +30,21 @@ const ContactPage = () => {
                     />
                     <ContactItem icon={faMapMarkedAlt} text1={'Bangladesh'} text2={'Chittagong, Raozan'} title={"Address"} />
                 </div>
+            </div>
+            <div className="container mt-5">
+                <form className="contact-form container text-white p-5 m-4 justify-content-center " onSubmit={sendEmail}>
+                    <input  type="hidden" name="contact_number" />
+                    <label className="mr-4">Name</label>
+                    <input type="text" name="name" />
+                    <br/>
+                    <label className="mr-5">Email</label>
+                    <input type="email" name="email" />
+                    <br/>
+                    <label className="mr-5">Message</label>
+                    <input style={{height:"100px"}} type="text" name="message" />
+                    <br/>
+                    <input className="btn btn-outline-warning" type="submit" value="Send" />
+                </form>
             </div>
         </div>
     );

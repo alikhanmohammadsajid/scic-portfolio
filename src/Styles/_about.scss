@@ -13,16 +13,19 @@
   }
   .about-info {
     margin-left: 2rem;
+    color: white;
     h4 {
       font-size: 2rem;
     }
     .about-text {
       padding: 1rem 0;
+      color: white;
     }
   }
 }
 .about-details {
   display: flex;
+  color: white;
   p {
     padding: 0.5rem 0;
   }
@@ -35,9 +38,9 @@
   background-color: rgba(15, 155, 148, 0.712);
   outline: none;
   border: none;
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
+  font-family: white;
+  font-size: white;
+  color: white;
   text-transform: uppercase;
   cursor: pointer;
   margin-top: 1rem;
