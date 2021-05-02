@@ -1,0 +1,21 @@
+.App {
+  .sidebar {
+    width: 16%;
+    height: 100vh;
+    background-color: #191d2b;
+    position: fixed;
+    border-right: 2px solid rgb(51, 51, 51);
+  }
+  .main-content {
+    width: 84%;
+    margin-left: 16%;
+    background-color: #0e101a;
+    min-height: 120vh;
+    background-image: url(../footer-bg.png);
+    display: grid;
+    position: relative;
+    .content{
+      margin: 5rem 15rem;
+    }
+  }
+}

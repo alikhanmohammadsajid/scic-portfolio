@@ -1,0 +1,40 @@
+.BlogPage{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.5rem;
+    .blog{
+        background-color: rgba(24, 167, 95, 0.822);
+        width: 100%;
+        padding: 1rem;
+        overflow: hidden;
+        .blog-content{
+            overflow: hidden;
+            padding-bottom: 2rem;
+            img{
+                width: 100%;
+                transition: all 0.3s ease-in-out; 
+                &:hover{
+                    transform: scale(1.1);
+                }
+                padding-bottom: 2rem;
+            }
+            .blog-link{
+                columns: inherit;
+                font-family: inherit;
+                text-decoration: none;
+                font-size: 1.5rem;
+                margin: 2rem 0;
+                padding-bottom: 2rem;
+                transition: all 0.4s ease-in-out;
+                color: rgba(0, 0, 255, 0.801);
+                &:hover{
+                    color: #fff;
+                    
+                }
+            }
+        }
+    }
+}
+.b-title {
+    margin-bottom: 4rem;
+}

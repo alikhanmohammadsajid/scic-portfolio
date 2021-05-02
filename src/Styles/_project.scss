@@ -1,0 +1,41 @@
+.ProjectPage{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.5rem;
+    .project{
+        background-color: rgba(255, 209, 4, 0.788);
+        width: 100%;
+        padding: 1rem;
+        overflow: hidden;
+        .project-content{
+            overflow: hidden;
+            padding-bottom: 2rem;
+            
+            img{
+                width: 100%;
+                transition: all 0.3s ease-in-out; 
+                &:hover{
+                    transform: scale(1.1);
+                }
+                padding-bottom: 2rem;
+            }
+            .project-link{
+                columns: inherit;
+                font-family: inherit;
+                text-decoration: none;
+                font-size: 1.5rem;
+                margin: 2rem 0;
+                padding-bottom: 2rem;
+                transition: all 0.4s ease-in-out;
+                color: rgb(0, 0, 0);
+                &:hover{
+                    color: rgba(255, 255, 255, 0.774);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.p-title {
+    margin-bottom: 4rem;
+}
