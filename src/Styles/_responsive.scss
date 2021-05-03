@@ -1,0 +1,54 @@
+@media (max-width: 991.98px) { 
+    .ImageSection {
+        margin-left: -30px;
+        margin-right: 25px;
+        width: 700px;
+    }
+    .my-image {
+        width: 100px;
+    }
+    .nav ul { 
+        margin-left: 8px;
+
+    }
+    .left-section p {
+        font-size: 12px;
+    }
+    .right-section p {
+        font-size: 12px;
+    }
+    .skills-container {
+        width: 500px;
+    }
+    .content {
+        margin: 0 65px !important;
+    }
+    .b-title {
+        margin-top: 100px;
+    }
+    .p-title {
+        margin-top: 100px;
+    }
+    .project-link {
+        display: block;
+        text-align: center;
+        padding-bottom: 0 !important;
+    }
+    .project-icon {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .project-icon a {
+        margin: 0 15px;
+    }
+    .project-content img {
+        height: 80%;
+        padding-bottom: 0 i !important;
+        border-radius: 8px;
+    }
+}
+@media (max-width: 575.98px) { 
+    .ProjectPage {
+        width: 400px;
+    }
+}

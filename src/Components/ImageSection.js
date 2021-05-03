@@ -1,13 +1,13 @@
 import { faFileAlt } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import about from '../sk.png'
+import myPicture from '../sk.png'
 import resume from '../resume/Sajid Khan Resume.pdf'
 const ImageSection = () => {
     return (
         <div className="ImageSection">
-            <div className="img">
-                <img src={about} alt="" />
+            <div className="my-image">
+                <img src={myPicture} alt="" />
             </div>
             <div className="about-info">
                 <h4>I Am

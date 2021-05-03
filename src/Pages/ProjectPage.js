@@ -42,17 +42,19 @@ const ProjectPage = () => {
             <div className="p-title">
                 <Title title={"projects"} span={"projects"} />
             </div>
-            <div className="ProjectPage">
+            <div className="ProjectPage row">
                 {
                     projects.map((project) => {
-                        return <div className="project" key={project.id}>
-                            <div className="project-content ali">
+                        return <div className="project col-md-6 col-sm-12 mt-4" key={project.id}>
+                            <div className="project-content">
                                 <a href="" className="project-link">{project.title}</a>
                                 <img src={project.img} alt="" />
                                 <a href="" className="project-detail">{project.details}</a>
                                 <br />
+                                <div className="project-icon">
                                 <a className="" href={project.gLink} target="_blank"> <FontAwesomeIcon icon={faGithub} className="icon gh" /> </a>
                                 <a className="" href={project.link1} target="_blank"> <FontAwesomeIcon icon={faPlayCircle} className="icon in" /> </a>
+                                </div>
 
                             </div>
                         </div>

@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <nav className="nav">
-            <div className="profile">
-                <img src={s} alt="" />
-            </div>
+                <div className="profile">
+                    <img src={s} alt="" />
+                </div>
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">
@@ -36,10 +36,10 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <footer className="footer">
-                <p>© 2021 || All Right Reserved</p>
-            </footer>
+                    <p>© 2021 || All Right Reserved</p>
+                </footer>
             </nav>
-            
+
         </div>
     );
 };
