@@ -24,7 +24,7 @@ const projects = [
         link1: 'https://mystifying-haibt-57849c.netlify.app/',
         gLink: 'https://github.com/alikhanmohammadsajid/sports-mania',
         details: 'It’s a React-based web app, where has many teams.If you click any team explores button you will know about the team information.'
-        
+
     },
     {
         id: '1',
@@ -46,14 +46,14 @@ const ProjectPage = () => {
                 {
                     projects.map((project) => {
                         return <div className="project" key={project.id}>
-                            <div className="project-content">
-                            <a href="" className="project-link">{project.title}</a>
+                            <div className="project-content ali">
+                                <a href="" className="project-link">{project.title}</a>
                                 <img src={project.img} alt="" />
                                 <a href="" className="project-detail">{project.details}</a>
-                                <br/>
-                                <a href={project.gLink} target="_blank"> <FontAwesomeIcon icon={faGithub} className="icon gh" /> </a>
-                                <a href={project.link1} target="_blank"> <FontAwesomeIcon icon={faPlayCircle} className="icon in" /> </a>
-                                
+                                <br />
+                                <a className="" href={project.gLink} target="_blank"> <FontAwesomeIcon icon={faGithub} className="icon gh" /> </a>
+                                <a className="" href={project.link1} target="_blank"> <FontAwesomeIcon icon={faPlayCircle} className="icon in" /> </a>
+
                             </div>
                         </div>
                     })

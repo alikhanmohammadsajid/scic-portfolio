@@ -23,6 +23,7 @@ const AboutPage = () => {
                 <SkillSection skill={"HEROKU"} progress={"40%"} width={"40%"} />
                 <SkillSection skill={"MONGO DB"} progress={"45%"} width={"45%"} />
             </div>
+        
         </div>
     );
 };
