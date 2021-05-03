@@ -5,6 +5,8 @@
     .project{
         background-color: rgba(255, 209, 4, 0.788);
         width: 100%;
+        text-align: center;
+        border-radius: 50px;
         padding: 1rem;
         overflow: hidden;
         .project-content{
@@ -39,3 +41,27 @@
 .p-title {
     margin-bottom: 4rem;
 }
+.project-detail {
+    color: rgba(255, 255, 255, 0.795);
+    overflow: hidden;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    text-transform: bold;
+    text-transform: uppercase;
+    &:hover{
+        color: rgba(255, 255, 255, 0.795);
+        text-decoration: none;
+    }    
+}
+.icon{
+    font-size: 2.6rem;
+      color: rgb(224, 208, 208);
+      transition: all 0.4s ease-in-out;
+}
+.gh:hover {
+    color: rgba(155, 3, 243, 0.808);
+  }
+  .in:hover {
+    color: rgba(11, 19, 87, 0.911);
+  }

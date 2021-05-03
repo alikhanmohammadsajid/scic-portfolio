@@ -2,7 +2,7 @@ import { faFileAlt } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import about from '../sk.png'
-import resume from '../resume/Sajid Khan Resume (2).pdf'
+import resume from '../resume/Sajid Khan Resume.pdf'
 const ImageSection = () => {
     return (
         <div className="ImageSection">
@@ -14,8 +14,7 @@ const ImageSection = () => {
                      <span> Sajid Khan</span>
                 </h4>
                 <p className="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quasi totam nulla sit eos excepturi placeat necessitatibus eius minima esse?
-
+                I am a front-end web developer. I have been learning web development since January 1, 2021. Now I have a good idea about HTML CSS JavaScript Bootstrap React.JS Node.JS Mongo.DB Netlify Firebase etc.
                 </p>
                 <div className="about-details">
                     <div className="left-section">
@@ -39,7 +38,7 @@ const ImageSection = () => {
                     </div>
                     
                 </div>
-                <button className="btn">
+                <button className="btn btn-outline-success btn">
                         <a style={{
                             textDecoration: "none",
                             fontSize: "20px",

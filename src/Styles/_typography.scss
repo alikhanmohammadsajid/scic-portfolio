@@ -24,20 +24,18 @@
   justify-content: center;
   padding: 1.5rem 0;
   .icon-holder {
-      margin-right: 1rem;
+    margin-right: 1rem;
     .icon {
-      font-size:2.6rem;
+      font-size: 2.6rem;
       color: rgb(224, 208, 208);
-      transition: all .4s ease-in-out;
+      transition: all 0.4s ease-in-out;
     }
-    .fb:hover{
-        color: rgba(14, 26, 129, 0.856);
+    
+    .gh:hover {
+      color: rgba(155, 3, 243, 0.39);
     }
-    .gh:hover{
-        color: rgba(155, 3, 243, 0.39);
-    }
-    .in:hover{
-        color: rgba(12, 34, 238, 0.911);
+    .in:hover {
+      color: rgba(12, 34, 238, 0.911);
     }
   }
 }

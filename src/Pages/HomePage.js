@@ -1,32 +1,30 @@
 import { faFacebook, faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { Link } from "react-router-dom";
+
 
 const HomePage = () => {
     return (
         <div className="HomePage">
             <header className="hero">
                 <h1 className="hero-text">
-                    HI, AM
+                    HI, I AM
                     <span> SAJID</span>
                 </h1>
                 <p className="h-sub-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores numquam quibusdam nostrum accusantium esse voluptates quam a inventore modi nihil delectus enim consequuntur magnam reiciendis ex neque, accusamus dicta. Deleniti?
+                I am a front-end web developer. I have been learning web development since January 1, 2021. Now I am a junior web developer.
                 </p>
                 <div className="icons">
-                    <Link to="https://www.facebook.com/profile.php?id=100013329240176" className="icon-holder">
-                       <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-                    </Link>
-                    <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faGithub} className="icon gh" />
-                    </Link>
-                    <Link  className="icon-holder">
-                       <FontAwesomeIcon icon={faLinkedinIn} className="icon in" />
-                    </Link>
-                    
+                    <a target="_blank" href="https://github.com/alikhanmohammadsajid" className="icon-holder">
+                        <FontAwesomeIcon icon={faGithub} 
+                        className="icon gh" />
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/mohammad-sajid-ali-khan-7823b6201/" className="icon-holder" >
+                        <FontAwesomeIcon icon={faLinkedinIn} className="icon in" />
+                    </a>
+
                 </div>
-                
+
             </header>
 
 

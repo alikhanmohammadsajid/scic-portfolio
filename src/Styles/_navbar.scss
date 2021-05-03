@@ -1,5 +1,6 @@
 .navbar {
     height: 100vh;
+   
     .nav {
         height: 100%;
         display: flex;
@@ -10,11 +11,11 @@
             width: 100%;
             text-align: center;
             margin-top: 1rem;
-            border-bottom: 1px solid rgb(68, 66, 66);
+            border-bottom: 1px solid rgba(53, 179, 42, 0.733);
             img {
-                width: 70%;
+                width: 100%;
                 border-radius: 100%;
-                border: 6px solid rgb(68, 66, 66);
+                border: 8px solid rgba(72, 192, 56, 0.705);
                 margin-bottom: 1rem;
             }
         }
@@ -38,7 +39,7 @@
                         left: 0;
                         width: .4rem;
                         height: 100%;
-                        background-color: rgba(87, 116, 211, 0.575);
+                        background-color: rgba(233, 233, 233, 0.685);
                         transform-origin: bottom;
                         transform: scale(0);
                         overflow-x: hidden;
@@ -53,14 +54,15 @@
         }
         .footer {
             width: 100%;
-            border-top: 1px solid rgb(68, 66, 66);
+            border-top: 1px solid rgba(75, 185, 60, 0.664);
             p{
                 text-align: center;
                 padding: 1.1rem 0;
+                color: antiquewhite;
             }
         }
     }
 }
 .active {
-    background-color: rgb(44, 134, 236);
+    background-color: rgba(47, 187, 47, 0.658);
 }

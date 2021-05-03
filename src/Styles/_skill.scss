@@ -1,11 +1,37 @@
 .SkillSection {
-margin: 4.5rem 0;
+
 }
 .skill-container {
-    .skill-title {
-color: aliceblue;
+    
+  .skill-title {
+    color: aliceblue;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  .skill-bar {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    .skill-text {
     }
-    .skill-bar {
-color: aliceblue;
+    .skill-progress {
+        width: 100%;
+      .progress {
+        width: 100%;
+        height: 0.5rem;
+        background-color: rgb(255, 0, 221);
+        margin-left: 1rem;
+        background-color: rgb(155, 16, 62);
+        position: relative;
+        .inner-progress {
+          content: "";
+          position: absolute;
+          background-color: rgb(209, 212, 29);
+          height: 100%;
+          bottom: 0;
+          left: 0;
+        }
+      }
     }
+  }
 }
