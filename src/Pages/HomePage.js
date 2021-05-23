@@ -9,7 +9,7 @@ const HomePage = () => {
             <header className="hero">
                 <h1 className="hero-text">
                     HI, I AM
-                    <span> SAJID</span>
+                    <span className="text-success"> SAJID</span>
                 </h1>
                 <p className="h-sub-text">
                 I am a front-end web developer. I have been learning web development since January 1, 2021. Now I am a junior web developer.
